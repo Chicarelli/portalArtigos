@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;  
+}
+.containerPrincipal{
+    background-color: #aed8f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100px;
+    margin-top: 0px;
+    text-align: center;
+}
+body{
+    background: #aed8f5;
+}
+
+.titulo-portal{
+    font-family: sans-serif;
+    font-size: 6rem;
+    margin: 0px;
+    padding: 0px;
+}
+textarea{
+    height: 400px;
+}
+
+.containerArtigo{
+    align-items: flex-start;
+    background-color: #0e5585;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding:10px;
+}
+
+.titulo{
+    color: #fdfdfd;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.titulo:hover{
+    color: #a39f9f;
+}
+
+.conteudo{
+    color: #fdfdfd;
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#botaoParaAdmin{
+    background: #f78e93;
+    border-radius: 5px;
+    color: #333333;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#botaoParaAdmin:hover{
+    background: #f1747a;
+}
+
+.cabecalho{
+    background: #dbe8f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+    color: #080808;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#home:hover{
+    color: #5e5a5a;
+}
